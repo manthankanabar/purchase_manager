@@ -1,0 +1,153 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Foundation",
+      "description": "Setup the foundational components of the project",
+      "status": "in-progress",
+      "subtasks": [
+        {
+          "id": "1.1",
+          "title": "Setup Git repository",
+          "description": "Initialize Git repository for the project",
+          "status": "done",
+          "details": "Created Git repository and initial commit"
+        },
+        {
+          "id": "1.2",
+          "title": "Setup Next.js project",
+          "description": "Initialize Next.js project with TypeScript, Tailwind CSS, and ESLint",
+          "status": "done",
+          "details": "Created Next.js project with TypeScript, Tailwind CSS, and ESLint support"
+        },
+        {
+          "id": "1.3",
+          "title": "Integrate Shadcn UI",
+          "description": "Add Shadcn UI components to the project",
+          "status": "done",
+          "details": "Integrated Shadcn UI components with Tailwind CSS and Radix UI"
+        },
+        {
+          "id": "1.4",
+          "title": "Setup Neon DB instance",
+          "description": "Create Neon PostgreSQL database instance",
+          "status": "done",
+          "details": "Created Neon PostgreSQL database instance and configured connection"
+        },
+        {
+          "id": "1.5",
+          "title": "Setup Drizzle ORM & initial schema migration",
+          "description": "Configure Drizzle ORM and create initial database schema",
+          "status": "done",
+          "details": "Set up Drizzle ORM with initial schema migration for database tables"
+        },
+        {
+          "id": "1.6",
+          "title": "Implement Clerk Authentication integration",
+          "description": "Integrate Clerk for authentication (Login, Logout, retrieving user metadata)",
+          "status": "done",
+          "details": "Implemented Clerk authentication with login, logout, and user metadata retrieval"
+        },
+        {
+          "id": "1.7",
+          "title": "Setup basic CI/CD pipeline",
+          "description": "Setup basic CI/CD pipeline for Vercel deployment",
+          "status": "done",
+          "details": "Created vercel.json configuration and GitHub Actions workflows for CI/CD"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Core Data Management",
+      "description": "Develop core data management features",
+      "status": "pending",
+      "subtasks": [
+        {
+          "id": "2.1",
+          "title": "Develop UI & API for Company CRUD",
+          "description": "Create UI components and API endpoints for Company management",
+          "status": "pending",
+          "details": "Implement forms, validation, and API endpoints for creating, reading, updating, and deleting companies"
+        },
+        {
+          "id": "2.2",
+          "title": "Develop UI & API for Site CRUD",
+          "description": "Create UI components and API endpoints for Site management (linked to Company)",
+          "status": "pending",
+          "details": "Implement forms, validation, and API endpoints for creating, reading, updating, and deleting sites"
+        },
+        {
+          "id": "2.3",
+          "title": "Develop UI & API for Vendor CRUD",
+          "description": "Create UI components and API endpoints for Vendor management",
+          "status": "pending",
+          "details": "Implement forms, validation, and API endpoints for creating, reading, updating, and deleting vendors"
+        },
+        {
+          "id": "2.4",
+          "title": "Develop UI & API for Stock Group CRUD",
+          "description": "Create UI components and API endpoints for Stock Group management",
+          "status": "pending",
+          "details": "Implement forms, validation, and API endpoints for creating, reading, updating, and deleting stock groups"
+        },
+        {
+          "id": "2.5",
+          "title": "Develop UI & API for Stock Item CRUD",
+          "description": "Create UI components and API endpoints for Stock Item management (linked to Group, UoM)",
+          "status": "pending",
+          "details": "Implement forms, validation, and API endpoints for creating, reading, updating, and deleting stock items"
+        },
+        {
+          "id": "2.6",
+          "title": "Implement UoM management",
+          "description": "Create UI components and API endpoints for Units of Measurement management",
+          "status": "pending",
+          "details": "Implement forms, validation, and API endpoints for creating, reading, updating, and deleting units of measurement"
+        },
+        {
+          "id": "2.7",
+          "title": "Implement Excel Upload feature for Stock Items",
+          "description": "Develop backend logic and frontend UI for Excel upload of Stock Items",
+          "status": "pending",
+          "details": "Implement Excel file parsing, validation, and database insertion for bulk stock item creation"
+        },
+        {
+          "id": "2.8",
+          "title": "Implement basic Admin dashboard",
+          "description": "Create admin dashboard for managing non-user master data",
+          "status": "pending",
+          "details": "Implement dashboard with overview of entities, sites, vendors, and stock items"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "PO, GRN & Issuance Workflow",
+      "description": "Develop purchase order, goods received note, and issuance workflow",
+      "status": "pending",
+      "subtasks": []
+    },
+    {
+      "id": "4",
+      "title": "Billing & Payment Workflow",
+      "description": "Develop billing and payment workflow",
+      "status": "pending",
+      "subtasks": []
+    },
+    {
+      "id": "5",
+      "title": "Reporting",
+      "description": "Develop reporting features",
+      "status": "pending",
+      "subtasks": []
+    },
+    {
+      "id": "6",
+      "title": "Testing & Deployment",
+      "description": "Perform testing and deployment",
+      "status": "pending",
+      "subtasks": []
+    }
+  ]
+}
