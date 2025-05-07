@@ -10,7 +10,6 @@ const sidebarItems = [
   { name: 'Entities', href: '/dashboard/entities', icon: LucideBuilding },
   { name: 'Sites', href: '/dashboard/sites', icon: LucideMapPin },
   { name: 'Vendors', href: '/dashboard/vendors', icon: LucideUsers },
-  { name: 'Stock Items', href: '/dashboard/stock-items', icon: LucidePackage },
 ];
 
 export default function DashboardLayout({

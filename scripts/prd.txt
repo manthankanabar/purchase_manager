@@ -1,0 +1,54 @@
+Purchase Management Application for Multi-Entity Construction Company
+
+PRODUCT OVERVIEW:
+The Purchase Management Application is a comprehensive, web-based internal tool designed to address the complex procurement and basic inventory management needs of a multi-entity construction company operating in India. The application centralizes the entire procurement lifecycle, including vendor management, stock item definition, purchase order creation and approval, goods receipt processes, invoice processing, and payment recording. It supports multi-company operations with different base currencies and incorporates basic inventory management using the FIFO method.
+
+TECHNOLOGY STACK:
+- Next.js with React and TypeScript
+- Shadcn UI (using Tailwind CSS and Radix UI)
+- Neon DB (PostgreSQL) with Drizzle ORM
+- Clerk for authentication
+
+KEY FEATURES:
+1. Multi-company and site management
+2. Vendor management
+3. Stock item and stock group management with HSN code integration
+4. Purchase order creation and approval workflow
+5. Goods received notes (GRN) processing
+6. Bill creation and approval
+7. Payment recording
+8. Basic inventory tracking using FIFO method
+9. Material issuance tracking
+10. Reporting (Inventory Valuation, Purchase History, Transaction Logs)
+
+CURRENT PROGRESS:
+- Basic Next.js project setup is complete
+- Clerk authentication is integrated
+- Database schema has been updated to include all required tables
+- Implemented Stock Items and Stock Groups functionality with HSN code integration
+- Implemented Vendor CRUD functionality
+
+NEXT STEPS:
+1. Create UI & API for Entity (Company) CRUD
+2. Create UI & API for Site CRUD
+3. Create UI & API for UoM (Units of Measurement) management
+4. Implement Purchase Order creation and approval workflow
+5. Implement GRN processing
+6. Implement Bill creation and approval
+7. Implement Payment recording
+8. Develop inventory tracking using FIFO method
+9. Create reporting functionality
+10. Implement material issuance tracking
+
+USER ROLES:
+1. Admin: Full access to all features and approval rights
+2. User: Operational access without approval capabilities
+
+REQUIREMENTS:
+- Data segregation by company
+- Role-based access control
+- Support for multiple currencies (primarily INR)
+- Excel upload for stock items
+- Responsive design for desktop and tablet use
+- Proper error handling and validation
+- Secure authentication and authorization
