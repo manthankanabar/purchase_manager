@@ -6,8 +6,8 @@
   "framework": "nextjs",
   "outputDirectory": ".next",
   "env": {
-    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "@next_public_clerk_publishable_key",
-    "CLERK_SECRET_KEY": "@clerk_secret_key",
-    "DATABASE_URL": "@database_url"
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_ZGV2b3RlZC1sYWR5YnVnLTM3LmNsZXJrLmFjY291bnRzLmRldiQ",
+    "CLERK_SECRET_KEY": "sk_test_fDzaQWNjP1iue3HkpJbqLryOH1PYtS8cLCTcCrDQsY",
+    "DATABASE_URL": "postgresql://neondb_owner:npg_INaFirSQ6zp9@ep-billowing-boat-a4s5ij5l-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
   }
 }

@@ -9,10 +9,12 @@ export const currencyEnum = pgEnum('currency', ['INR', 'USD', 'EUR', 'GBP']);
 // Users table
 export const users = pgTable('users', {
   id: uuid('id').primaryKey().defaultRandom(),
+  clerkId: text('clerk_id').unique(), // Add clerkId to link with Clerk users
   name: text('name').notNull(),
   email: text('email').notNull().unique(),
   role: text('role').notNull().default('user'),
   entityId: uuid('entity_id').references(() => entities.id),
+  isActive: boolean('is_active').notNull().default(true),
   createdAt: timestamp('created_at').defaultNow(),
   updatedAt: timestamp('updated_at').defaultNow(),
 });
